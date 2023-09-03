@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+@import 'bootstrap/scss/bootstrap';
+
+
+.full-screen {
+    // height: calc(100vh);
+    // width: calc(100vw);
+    height: 100%;
+    width: 100%;
+}
+
+.full-height-rel {
+    height: 100%;
+}
+
+.full-width-rel {
+    width: 100%;
+}
+
+hr.thick-white {
+    border-top: 4px solid #FFFFFFFF;
+}

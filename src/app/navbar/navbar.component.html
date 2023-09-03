@@ -1,0 +1,31 @@
+<nav class="bg-info h-100 py-5 px-3">
+    <div class="mb-3">
+        <span class="px-2">
+            <fa-icon [icon]="faTree" animation="fade" size="4x" style="color: greenyellow;" [id]="'tree-logo'"></fa-icon>
+        </span>
+        <span class="px-2">
+            SPECIES CAPTURE
+        </span>
+    </div>
+    <hr class="thick-white mb-5" />
+    <ul class="nav nav-tabs flex-column">
+        <li class="nav-item">
+            <a class="nav-link" [routerLink]="['']" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/species']" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Species</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/accepted_contribution']" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Accepted Contributions</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/pending_contribution']" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Pending Contributions</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/rejected_contribution']" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Rejected Contributions</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/user']" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Users</a>
+        </li>
+    </ul>
+</nav>
